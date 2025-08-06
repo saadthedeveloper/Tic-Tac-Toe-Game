@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    background-color: #CCC9DC;
+    text-align: center;
+    transition: background-color 1s, color 1s;
+}
+
+.main-container {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px
+    
+}
+
+#game {
+    height: 68vmin;
+    width: 68vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1vmin;
+    background-color: rgb(255, 136, 0);
+    border-radius: 5px;
+}
+
+.boxes {
+    height: 22vmin;
+    width: 22vmin;
+    border: none;
+    background-color: #CCC9DC;
+    font-size: 13vmin;
+    color: white;
+    transition: background-color 1s, color 1s;
+    font-family: "Press Start 2P", system-ui;
+    
+}
+
+#reset-button {
+    position: absolute;
+    left: 8rem;
+    padding: 0.5rem 1rem;
+    border-radius: 50px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    font-family: "Press Start 2P", system-ui;
+    padding: 23px;
+    padding-left: 33px;
+    padding-right: 33px;
+}
+
+#header {
+    display: flex;
+    text-align: center;
+    
+}
+
+
+#header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 1rem;
+    margin-top: 50px;
+}
+
+
+.winner {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2.9rem;
+    font-weight: bold;
+    font-family: "Press Start 2P", system-ui;
+    color: rgb(255, 136, 0);
+}
+
+#theme-mode {
+    position: absolute;
+    right: 8rem;
+    padding: 0.5rem 1rem;
+    border-radius: 50px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    font-family: "Press Start 2P", system-ui;
+    padding: 23px;
+    padding-left: 33px;
+    padding-right: 33px;
+}
+
+.light-mode-background{
+    background-color: #CCC9DC;
+    color: rgb(255, 136, 0);
+}
+.dark-mode-background{
+    background-color: #000000;
+    color: rgb(255, 136, 0);
+}
+
+.light-mode-boxes{
+    background-color: #CCC9DC;
+    
+}
+
+.dark-mode-boxes{
+    background-color: #000000;
+
+}
