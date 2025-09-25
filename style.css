@@ -9,7 +9,7 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 80px;
+    gap: 20vh;
 }
 
 
@@ -53,6 +53,12 @@ body {
     padding: 23px 33px 23px 33px;
 }
 
+#outter-header-div{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
 
 
 
@@ -61,17 +67,20 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 20px;
+
 }
 
 .button-div{
     justify-content: center;
     align-items: center;
+    
 }
 
 
 .game-heading {
-    font-size: 2.9rem;
+    
+    font-size: 2.0rem;
     font-weight: bold;
     font-family: "Press Start 2P", system-ui;
     color: rgb(255, 136, 0);
@@ -103,7 +112,7 @@ body {
 
     .game-heading {
 
-        font-size: 2.0rem;
+        font-size: 1.8rem;
         font-weight: bold;
        
         
@@ -113,8 +122,9 @@ body {
 
         .header-buttons {
 
-    padding: 20px 20px;
+    padding: 13px 13px;
     font-size: 0.5rem;
+    
    
 
     
@@ -125,6 +135,7 @@ body {
     width: 50%;
      display: flex;
     justify-content: center;
+    
 
 }
 
@@ -134,9 +145,8 @@ body {
 
 #outter-heading-div{
     width: 100%;
-    margin-top: 20px;
-
-    text-align: center;
+   
+     text-align: center;
 }
 
 #outter-header-div{
@@ -144,5 +154,20 @@ body {
 }
 
 
+#game {
+
+    height: 90vmin;
+    width: 90vmin;
+}
+
+main {
+    gap: 10vh;
+}
+
+#outter-header-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
 }
