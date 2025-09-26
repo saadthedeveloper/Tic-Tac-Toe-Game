@@ -171,3 +171,58 @@ main {
 }
 
 }
+
+@media (min-width : 450px)
+{
+#game {
+
+    height: 80vmin;
+    width: 80vmin;
+}
+
+}
+
+
+@media (min-width : 530px)
+{
+#game {
+
+    height: 70vmin;
+    width: 70vmin;
+}
+}
+
+
+@media (min-width : 530px)
+{
+   .game-heading {
+
+        font-size: 2.5rem;
+        font-weight: bold;       
+        
+    }
+
+        .header-buttons {
+
+    padding: 25px 40px;
+    font-size: 0.8rem;
+}
+}
+
+
+
+@media (min-width : 1115px){
+    .heading-div{
+    display:inline;
+    
+}
+.button-div{
+    width: 30%;
+}
+
+#outter-heading-div{
+    display: none;
+}
+
+
+}
