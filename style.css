@@ -20,14 +20,14 @@ body {
 
 
 #game {
-
+    position: relative;
     height: 68vmin;
     width: 68vmin;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-content: space-between;
-    background-color: rgb(255, 136, 0);
+    background-color: transparent;
 }
 
 
@@ -35,6 +35,7 @@ body {
 .boxes {
     height: 32%;
     width: 32%;
+    z-index: 1;
     border: none;
     background-color: #ffffff;
     font-size: 13vmin;
@@ -105,6 +106,31 @@ body {
 
 }
 
+
+#fdiv{
+position: absolute ;
+height: 150px;
+width: 150px;
+background-color: rgb(255, 136, 0);
+
+margin: auto;
+animation: linesAnimation 2s forwards 1;
+}
+
+@keyframes linesAnimation {
+
+    100%{
+
+height: 100%;
+width: 100%;
+    }
+}
+
+
+
+/*******************************************/
+/*            RESPONSIVENESS               */
+/*******************************************/        
 
 
 @media (min-width : 300px) {
