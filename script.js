@@ -126,6 +126,11 @@ themeButton.addEventListener("click", () => {
         });
 
         themeButton.innerText = "Dark Mode";
+        themeButton.classList.add("light-mode-button");
+        themeButton.classList.remove("dark-mode-button");
+        
+        resetButton.classList.add("light-mode-button");
+        resetButton.classList.remove("dark-mode-button");
         theme = "Light";
     } else {
         body.classList.remove("light-mode-background");
@@ -141,5 +146,9 @@ themeButton.addEventListener("click", () => {
 
         theme = "Dark";
         themeButton.innerText = "Light Mode";
+        themeButton.classList.add("dark-mode-button");
+        themeButton.classList.remove("light-mode-button");
+        resetButton.classList.add("dark-mode-button");
+        resetButton.classList.remove("light-mode-button");
     }
 });

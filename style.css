@@ -98,12 +98,22 @@ body {
 
 .light-mode-boxes {
     background-color: #ffffff;
+    color: gray;
 
 }
 
 .dark-mode-boxes {
     background-color: #000000;
 
+}
+
+.dark-mode-button{
+background-color: white;
+
+}
+
+.light-mode-button{
+background-color: gray;
 }
 
 
@@ -116,7 +126,7 @@ right: 50%;
 background-color: rgb(255, 136, 0);
 
 margin: auto;
-animation: linesAnimation 2s forwards 1;
+animation: linesAnimation 500ms forwards 1;
 }
 
 @keyframes linesAnimation {
